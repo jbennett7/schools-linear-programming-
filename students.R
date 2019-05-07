@@ -31,7 +31,7 @@ percentage.area.6.per.grade <- c(.34,.28,.38)
 # Construct the model.
 lprec <- make.lp(0, length(cost.struct))
 
-# Decision variable types are integers, we cannot have hale a student
+# Decision variable types are integers, we cannot have half a student
 set.type(lprec, 1:length(cost.struct), type=c("integer"))
 
 # Set the objective function to the cost.structure vector
